@@ -1,0 +1,85 @@
+
+
+body{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 19px;
+	margin: 0;
+	padding: 0;
+}
+
+.section1{
+	width: 520px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 30px;
+	color: #fafafa;
+	
+}
+
+.section2{
+	height: auto;
+	width: 520px;
+	margin: 0 auto;
+	padding-left: 160px;
+	padding-top: 46px;
+
+}
+
+.social{
+	list-style: none;
+	margin: 10px 0;
+	
+}
+
+
+.social--el{
+	float: left;
+	margin: 15px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.social--el a{
+	display: block;
+	height: 64px;
+	width: 64px;
+}
+
+.social--el--facebook a{
+	background: url(images/facebook.png) no-repeat center center;
+
+}
+
+.social--el--pinterest a{
+	background: url(images/pinterest.png) no-repeat center center;
+}
+
+.social--el--cv a{
+	background: url(images/cv.png) no-repeat center center;
+}
+
+.title{
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 4px 5px 4px #aaa;
+	padding-right: 40px;
+}
+
+.text{
+	line-height: 2.0;
+	border-left: 1px solid white;
+	border-right: 2px solid white;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+
+
+.background {
+	background: url(images/vcard.png) no-repeat right bottom;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
